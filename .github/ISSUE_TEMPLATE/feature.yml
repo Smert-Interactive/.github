@@ -1,0 +1,35 @@
+name: Новая функциональность
+description: Предложить новую возможность или пользовательский сценарий
+title: "feat: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Проблема или цель
+      description: Какую пользовательскую или техническую потребность решаем?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Предлагаемое решение
+      description: Опиши ожидаемое поведение без лишних деталей реализации.
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Критерии приёмки
+      description: Перечисли проверяемые условия готовности.
+      placeholder: |
+        - [ ] Условие 1
+        - [ ] Условие 2
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Зависимости и риски
+      description: Связанные задачи, контракты, миграции или возможные блокеры.

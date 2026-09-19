@@ -1,0 +1,28 @@
+name: Документация
+description: Добавить или исправить проектную документацию
+title: "docs: "
+labels:
+  - documentation
+body:
+  - type: textarea
+    id: target
+    attributes:
+      label: Что нужно задокументировать
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Где должна находиться документация
+      description: Репозиторий, файл, раздел README или диаграмма.
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Критерии готовности
+      placeholder: |
+        - [ ] Информация актуальна
+        - [ ] Ссылки и примеры проверены
+    validations:
+      required: true
