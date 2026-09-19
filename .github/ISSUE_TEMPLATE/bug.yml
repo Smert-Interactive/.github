@@ -1,0 +1,40 @@
+name: Ошибка
+description: Сообщить о воспроизводимой проблеме
+title: "fix: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Что произошло
+      description: Опиши наблюдаемое неправильное поведение.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги воспроизведения
+      placeholder: |
+        1. Запустить ...
+        2. Выполнить ...
+        3. Увидеть ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемое поведение
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Окружение
+      description: ОС, браузер, версия Node.js, Docker или другой важный контекст.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Логи и скриншоты
+      description: Удали токены, пароли и другие секреты перед публикацией.
+      render: shell
