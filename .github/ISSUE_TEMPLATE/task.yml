@@ -1,0 +1,31 @@
+name: Техническая задача
+description: Создать задачу на инфраструктуру, рефакторинг, тесты или документацию
+title: "chore: "
+body:
+  - type: textarea
+    id: result
+    attributes:
+      label: Ожидаемый результат
+      description: Что должно существовать или работать после выполнения задачи?
+    validations:
+      required: true
+  - type: textarea
+    id: work
+    attributes:
+      label: Состав работ
+      placeholder: |
+        - [ ] Шаг 1
+        - [ ] Шаг 2
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Критерии готовности
+      description: Как однозначно проверить завершение задачи?
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Зависимости и связанные задачи
