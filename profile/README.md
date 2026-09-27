@@ -4,16 +4,16 @@
 
 <br>
 
-### We roll dice. We ship code.
-*Sometimes in that order.*
+### Мы бросаем кубы. Мы пишем код.
+*Иногда именно в таком порядке.*
 
-[![DiceBound](https://img.shields.io/badge/🎲_DiceBound-Active_Development-8A2BE2?style=for-the-badge)](https://github.com/Smert-Interactive)
+[![DiceBound](https://img.shields.io/badge/🎲_DiceBound-в_разработке-8A2BE2?style=for-the-badge)](https://github.com/Smert-Interactive)
 ![GitHub](https://img.shields.io/badge/GitHub-Smert_Interactive-181717?style=for-the-badge&logo=github)
-![Status](https://img.shields.io/badge/status-building...-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/статус-разрабатывается-orange?style=for-the-badge)
 
 <br>
 
-> **A small team building things we would actually want to use.**
+> **Небольшая команда, которая делает вещи, которыми сама хотела бы пользоваться.**
 
 </div>
 
@@ -21,73 +21,122 @@
 
 ## 🎲 DiceBound
 
-> ### Your character. Your system. Your rules.
+> ### Твой персонаж. Твоя система. Твои правила.
 
-**DiceBound** is a universal platform for tabletop RPG character sheets.
+**DiceBound** — универсальная платформа для создания и хранения листов персонажей настольных ролевых игр.
 
-Not another D&D-only character builder.
+Не очередной конструктор исключительно для D&D.
 
-We're building a system where character sheets are **modular, schema-driven and adaptable** to different tabletop RPGs — from existing systems to completely custom ones.
+Мы создаём систему, в которой листы персонажей **модульные, управляются схемами и могут адаптироваться под разные НРИ** — от существующих игровых систем до полностью пользовательских.
 
 <br>
 
-| | |
-| :--- | :--- |
-| 🧩 **Modular sheets** | Build character sheets from reusable components |
-| ⚙️ **Custom systems** | Create templates for different tabletop RPG systems |
-| 🧮 **Calculated fields** | Derived stats and formula-based values |
-| 📜 **Revision history** | Keep track of character changes over time |
-| 🔍 **Visual diffs** | See exactly what changed between revisions |
-| 🔗 **Sharing** | Read-only and editable character sheets |
-| 🗃️ **Flexible data** | Schema-driven JSONB character storage |
+<table>
+<tr>
+<td>🧩 <b>Модульные листы</b></td>
+<td>Листы персонажей собираются из переиспользуемых компонентов</td>
+</tr>
+
+<tr>
+<td>⚙️ <b>Пользовательские системы</b></td>
+<td>Можно создавать собственные шаблоны для различных НРИ</td>
+</tr>
+
+<tr>
+<td>🧮 <b>Вычисляемые поля</b></td>
+<td>Производные характеристики и значения на основе формул</td>
+</tr>
+
+<tr>
+<td>📜 <b>История версий</b></td>
+<td>Изменения персонажа сохраняются между ревизиями</td>
+</tr>
+
+<tr>
+<td>🔍 <b>Сравнение версий</b></td>
+<td>Можно увидеть, что именно изменилось между ревизиями</td>
+</tr>
+
+<tr>
+<td>🔗 <b>Совместный доступ</b></td>
+<td>Листы можно открывать для просмотра или редактирования</td>
+</tr>
+
+<tr>
+<td>🗃️ <b>Гибкие данные</b></td>
+<td>Структура персонажей хранится в PostgreSQL JSONB</td>
+</tr>
+</table>
 
 ---
 
-## 🛠️ Under the hood
+## 🛠️ Что под капотом
 
 <div align="center">
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 
 <br>
 
-**React · TypeScript · PHP · PostgreSQL · Docker**
+**React · TypeScript · PostgreSQL · Docker**
 
 <br>
 
-…and an unreasonable amount of Markdown.
+…и неприлично большое количество Markdown.
 
 </div>
 
 ---
 
-## 🧙 The party
+## 🧙 Наша партия
 
-A group of developers pretending that software development is significantly more predictable than rolling a d20.
+Группа разработчиков, которые делают вид, будто разработка программного обеспечения значительно предсказуемее броска d20.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🎯 Current quest
+### 🎯 Текущий квест
 
-> **Build DiceBound without accidentally creating a distributed monolith.**
+> **Сделать DiceBound и случайно не создать распределённый монолит.**
 
-**Difficulty:** probably higher than expected.
+**Сложность:** вероятно, выше ожидаемой.
 
 </td>
 
 <td width="50%" valign="top">
 
-### 🎲 Current condition
+### 🎲 Текущее состояние
 
-```text
-Planning      ██████████
-Coding        ███████░░░
-Documentation ██████░░░░
-Sanity        ██░░░░░░░░
+<pre>
+Планирование   ██████████
+Разработка     ███████░░░
+Документация   ██████░░░░
+Рассудок       ██░░░░░░░░
+</pre>
+
+</td>
+</tr>
+</table>
+
+---
+
+## ⚔️ Философия разработки
+
+```bash
+$ git checkout -b feat/something-cool
+
+> написать код
+> сломать всё
+> пересмотреть жизненные решения
+> починить всё
+> открыть pull request
+> получить эмоциональный урон на code review
+> merge
+
+Достижение разблокировано:
+"У меня на компьютере работает"
