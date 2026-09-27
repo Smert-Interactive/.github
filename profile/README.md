@@ -1,12 +1,46 @@
-## Hi there 👋
+💀 Smert Interactive
 
-<!--
+We roll dice. We ship code. 
 
-**Here are some ideas to get you started:**
+Welcome to Smert Interactive — a small team building things we would actually want to use.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+Right now, we're working on DiceBound 🎲
+
+🎲 DiceBound
+
+DiceBound is a universal platform for tabletop RPG character sheets.
+
+Not another D&D-only character builder.
+
+We're building a system where character sheets are modular, schema-driven and adaptable to different tabletop RPGs — from existing systems to completely custom ones.
+
+The idea:
+
+🧩 Modular character sheets
+
+⚙️ Custom RPG systems and templates
+
+🧮 Calculated fields and formulas
+
+📜 Character revision history
+
+🔍 Visual changes between revisions
+
+🔗 Sharing with read-only / edit permissions
+
+🗃️ Flexible JSONB-based character data
+
+🚧 Status
+
+DiceBound is currently under active development.
+
+Some things work.
+Some things are documented.
+Some things are documented but don't work.
+
+We're working on it.
+
+<p align="center">
+  <b>Smert Interactive</b><br>
+  <i>Roll high. Ship often.</i> 🎲
+</p>
